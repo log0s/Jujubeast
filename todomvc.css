@@ -16,16 +16,21 @@ body {
     color: #b5b5b5;
 }
 
+#list {
+    height: 120px;
+}
 #checks {
     display: inline-block;
     float: left;
     width: 50px;
+    height: 120px;
     margin-right: 0px;
     padding-top: 10px;
 }
 
 #items {
     width: 450px;
+    height: 120px;
     padding-left: 0px;
     display: inline-block;
     margin-left: 0px;
@@ -76,8 +81,14 @@ body {
 
 .cImg {
     border-bottom: 1px solid blue;
+    margin: 0px;
+    height: 30px;
 }
 
 .cImg:nth-child(4) {
     border-bottom: none;
+}
+
+.iItem {
+    margin: 0px;
 }
