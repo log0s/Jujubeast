@@ -11,7 +11,7 @@ body {
 
 #main {
     margin: 0 30% 0 30%;
-    border-top: 40px solid black;
+    border-top: 20px solid black;
 }
 
 #entry {
@@ -43,6 +43,7 @@ body {
 
 #navbar ul {
     display: inline;
+    width: 70%;
 }
 
 #navbar li {
