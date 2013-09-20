@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    margin: 0 15% 0 15%;
+    margin: 0 30% 0 30%;
     border-left: 1px solid black;
     border-right: 1px solid black;
 }
@@ -9,8 +9,12 @@ a {
     text-decoration: none;
 }
 
+a:link {
+    color: white;
+}
+
 a:visited {
-    color:red;
+    color: white;
 }
 
 a:hover {
@@ -25,9 +29,13 @@ h1 {
     font-size: 1.4em;
 }
 
-h2 {
-    font-size: 1.10em;
-    margin: 0;
+img {
+    display: block;
+    margin: auto;
+}
+
+#head img {
+    display: inline;
 }
 
 .iQuant {
@@ -45,13 +53,19 @@ h2 {
     padding: 0 10px 0 10px;
 }
 
+#head {
+    padding: 0;
+    background-color: #510c0c;
+    height: 100px;
+}
+
 #tContents {
     text-align: center;
     position: fixed;
-    width: 70%;
+    width: 39.8%;
     bottom: 0;
     border: 1px solid black;
-    background-color: black;
+    background-color: #510c0c;
     color: white;
 }
 
@@ -66,6 +80,7 @@ h2 {
     display: inline-block;
     width: 30%;
     margin: auto;
+    padding: 5px;
 }
 
 #bpSalad {
