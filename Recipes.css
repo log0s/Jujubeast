@@ -62,9 +62,9 @@ img {
 #tContents {
     text-align: center;
     position: fixed;
-    width: 39.8%;
-    bottom: 0;
+    width: 756px;
     border: 1px solid black;
+    bottom: 0;
     background-color: #510c0c;
     color: white;
 }
