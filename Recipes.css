@@ -1,25 +1,20 @@
 body {
     font-family: sans-serif;
+    margin: 0 15% 0 15%;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
 }
 
 a {
     text-decoration: none;
 }
 
-div {
-    width: 50%;
-}
-
-a:link {
-    color: #002Eb8;
-}
-
 a:visited {
-    color: #8a00b8;
+    color:red;
 }
 
 a:hover {
-    color: #ff6633;
+    color: yellow;
 }
 
 ul {
@@ -32,6 +27,7 @@ h1 {
 
 h2 {
     font-size: 1.10em;
+    margin: 0;
 }
 
 .iQuant {
@@ -44,24 +40,39 @@ h2 {
     font-style: italic;
 }
 
-.tLink {
-    font-size: 0.7em;
+.recipe {
+    border-bottom: 1px solid black;
+    padding: 0 10px 0 10px;
 }
 
 #tContents {
     text-align: center;
+    position: fixed;
+    width: 70%;
+    bottom: 0;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+
+#tContents ul {
+    padding: 0;
+    margin: 0;
 }
 
 #tContents li {
     font-family: serif;
     font-size: 1.10em;
     display: inline-block;
-    border: 1px solid black;
-    padding: 0.1em;
-    border-radius: 0.25em;
-    margin: 0.5em;
+    width: 30%;
+    margin: auto;
 }
 
-#tContents li:hover {
-    background-color: #ededed;
+#bpSalad {
+    padding-bottom: 50px;
+    border: none;
+}
+
+#gcGrits {
+    border-top: 1px solid black;
 }
