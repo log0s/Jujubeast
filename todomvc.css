@@ -3,7 +3,7 @@ body {
     font-family: sans-serif;
 }
 
-#head h1 {
+h1 {
     text-align: center;
     color: gray;
     font-size: 60px;
